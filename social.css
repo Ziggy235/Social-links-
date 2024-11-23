@@ -1,0 +1,65 @@
+body {
+  font-family: inter;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-size: 11px;
+}
+img {
+  margin-left: 675px;
+  margin-top: 75px;
+  border-radius: 350px;
+}
+
+h3{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(0, 0%, 100%);
+  font-size: 29px;
+}
+.London{
+  margin-top: -19px;
+  color:  hsl(75, 94%, 57%);
+  width: 400;
+
+
+}
+
+.all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  margin-top: 10px;
+  width: 220px;
+  height: 35px;
+  border-radius: 6px;
+  border-style: none;
+  border-color: hsl(0, 0%, 8%);
+  background-color:hsla(0, 0%, 8%, 0.544);
+  color:  hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 700;
+  
+}
+button:hover{
+  background-color:  hsl(75, 94%, 57%);
+  color: black;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 40px;
+  color: whitesmoke;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+  color: whitesmoke;
+
+}
