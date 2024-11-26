@@ -1,8 +1,11 @@
+<!--the body style-->
 body {
-  font-family: inter;
-  background-color: hsl(0, 0%, 20%);
+  background-color: black;
   color: white;
-  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 *{
@@ -11,59 +14,83 @@ body {
   box-sizing: border-box;
 }
 
-img {
-  margin-left: 675px;
-  margin-top: 75px;
-  border-radius: 350px;
-}
-
-h3{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  color: hsl(0, 0%, 100%);
-  font-size: 29px;
-}
-.London{
-  margin-top: -19px;
-  color:  hsl(75, 94%, 57%);
-  width: 400;
-
-
-}
-
-.all{
+<!--the main container styles-->
+.container{
+  background-color: hsl(0, 0%, 12%);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-}
-button{
-  margin-top: 10px;
-  width: 220px;
-  height: 35px;
-  border-radius: 6px;
-  border-style: none;
-  border-color: hsl(0, 0%, 8%);
-  background-color:hsla(0, 0%, 8%, 0.544);
-  color:  hsl(0, 0%, 100%);
-  font-size: 14px;
-  font-weight: 700;
-  
-}
-button:hover{
-  background-color:  hsl(75, 94%, 57%);
-  color: black;
-  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
 }
 
+<!--The image style-->
+  .container img{
+    display: block;
+    margin: 20px auto;
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+    
+<!--heading style-->
+.container h1{
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 08px;
+}
+
+
+.container h3{
+  font-weight: 400;
+  font-size: 12px;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 15px;
+}
+
+
+<!--paragraph styling-->
+.container p{
+  font-weight: 400;
+  font-size: 12px;
+  color: hsl(75, 94%. 57%);
+  margin-bottom: 15px;
+}
+
+<1--list styling-->
+.container ul{
+  list-style: none;
+}
+.container ul li{
+  background: hsl(0, 0%, 20%);
+  margin-bottom: 13px;
+  padding: 9px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  color; white
+}
+
+.container ul li: hover{
+  color: green;
+  transform: scale(1.1);
+  transition: all ease-in-out .3s;
+}
+.container ul li: active{
+  color: red;
+}
+
+<!--the footer styling-->
 .attribution {
   font-size: 11px;
   text-align: center;
   margin-top: 40px;
   color: whitesmoke;
 }
+
 div {
   display: block;
   unicode-bidi: isolate;
